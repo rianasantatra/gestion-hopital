@@ -20,20 +20,20 @@
                 <?php endif; ?>
                 <form action="/register/save" method="post">
                     <div class="mb-3">
-                        <label for="InputForName" class="form-label">Name</label>
-                        <input type="text" name="name" class="form-control" id="InputForName" value="<?= set_value('name') ?>">
+                        <label for="" class="form-label">Immatriculation</label>
+                        <input type="text" name="im" class="form-control" id="im" value="<?= set_value('im') ?>">
                     </div>
                     <div class="mb-3">
-                        <label for="InputForEmail" class="form-label">Email address</label>
-                        <input type="email" name="email" class="form-control" id="InputForEmail" value="<?= set_value('email') ?>">
+                        <label for="" class="form-label">Nom Complet</label>
+                        <input type="text" name="username" class="form-control" id="username" value="<?= set_value('username') ?>">
                     </div>
                     <div class="mb-3">
-                        <label for="InputForPassword" class="form-label">Password</label>
-                        <input type="password" name="password" class="form-control" id="InputForPassword">
+                        <label for="" class="form-label">Mot de passe</label>
+                        <input type="password" name="password" class="form-control" id="password">
                     </div>
                     <div class="mb-3">
-                        <label for="InputForConfPassword" class="form-label">Confirm Password</label>
-                        <input type="password" name="confpassword" class="form-control" id="InputForConfPassword">
+                        <label for="" class="form-label">Confirmer</label>
+                        <input type="password" name="confpassword" class="form-control" id="confpassword">
                     </div>
                     <button type="submit" class="btn btn-primary">Register</button>
                 </form>

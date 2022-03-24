@@ -22,7 +22,7 @@ class Register extends Controller
         //set rules validation form
         $rules = [
             'im'          => 'required|min_length[3]|max_length[20]',
-            'username'         => 'required|min_length[6]|max_length[50]|valid_email|is_unique[users.user_email]',
+            'username'         => 'required|min_length[6]|max_length[50]',
             'password'      => 'required|min_length[6]|max_length[200]',
             'confpassword'  => 'matches[password]'
         ];

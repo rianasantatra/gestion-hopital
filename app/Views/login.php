@@ -22,12 +22,12 @@
                 <?php endif; ?>
                 <form action="/login/auth" method="post">
                     <div class="mb-3">
-                        <label for="InputForEmail" class="form-label">Email address</label>
-                        <input type="email" name="email" class="form-control" id="InputForEmail" value="<?= set_value('email') ?>">
+                        <label for="" class="form-label">Immatriculation</label>
+                        <input type="text" name="im" class="form-control" id="im" value="<?= set_value('email') ?>">
                     </div>
                     <div class="mb-3">
-                        <label for="InputForPassword" class="form-label">Password</label>
-                        <input type="password" name="password" class="form-control" id="InputForPassword">
+                        <label for="" class="form-label">Mot de passe</label>
+                        <input type="password" name="password" class="form-control" id="password">
                     </div>
                     <button type="submit" class="btn btn-primary">Login</button>
                 </form>
