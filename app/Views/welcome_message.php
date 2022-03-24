@@ -17,7 +17,7 @@
                     <div class="card fat">
                         <div class="card-body">
                             <h4 class="card-title text-center">Login</h4>
-                            <form method="POST" class="" novalidate="">
+                            <form method="POST" action="" class="">
                                 <div class="form-group">
                                     <label for="">Immatriculation</label>
                                     <input id="immatriculation" type="text" class="form-control" name="immatriculation" value="" required>
