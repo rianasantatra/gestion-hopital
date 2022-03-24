@@ -19,16 +19,16 @@
             <div class="form-group">
                 <label class="col-md-4 control-label" for="username">Immatriculation</label>
                 <div class="col-md-4">
-                    <input id="username" name="username" type="text" placeholder="Immatriculation" class="form-control input-md" required="">
+                    <input id="username" name="username" type="text" placeholder="Immatriculation" class="form-control input-md" required>
 
                 </div>
             </div>
 
             <!-- Password input-->
             <div class="form-group">
-                <label class="col-md-4 control-label" for="Password">Mot de pasee</label>
+                <label class="col-md-4 control-label" for="Password">Mot de passe</label>
                 <div class="col-md-4">
-                    <input id="Password" name="Password" type="password" placeholder="Mot de passe" class="form-control input-md" required="">
+                    <input id="password" name="password" type="password" placeholder="Mot de passe" class="form-control input-md" required>
 
                 </div>
             </div>
@@ -37,7 +37,7 @@
             <div class="form-group">
                 <label class="col-md-4 control-label" for="Login"></label>
                 <div class="col-md-4">
-                    <button id="Login" name="Login" class="btn btn-primary">Connexion</button>
+                    <button id="login" name="login" class="btn btn-primary">Connexion</button>
                 </div>
             </div>
 
