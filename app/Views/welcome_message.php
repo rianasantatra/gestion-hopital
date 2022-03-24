@@ -17,7 +17,7 @@
                     <div class="card fat">
                         <div class="card-body">
                             <h4 class="card-title text-center">Login</h4>
-                            <form method="POST" action="" class="">
+                            <form method="POST" action="user" class="">
                                 <div class="form-group">
                                     <label for="">Immatriculation</label>
                                     <input id="immatriculation" type="text" class="form-control" name="immatriculation" value="" required>
