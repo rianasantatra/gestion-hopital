@@ -17,27 +17,27 @@ class Login extends Controller
     {
         $session = session();
         $model = new UserModel();
-        $email = $this->request->getVar('email');
+        $im = $this->request->getVar('im');
         $password = $this->request->getVar('password');
-        $data = $model->where('user_email', $email)->first();
+        $data = $model->where('im', $im)->first();
         if ($data) {
-            $pass = $data['user_password'];
+            $pass = $data['password'];
             $verify_pass = password_verify($password, $pass);
             if ($verify_pass) {
                 $ses_data = [
-                    'user_id'       => $data['user_id'],
-                    'user_name'     => $data['user_name'],
-                    'user_email'    => $data['user_email'],
+                    'id'       => $data['id'],
+                    'im'     => $data['im'],
+                    'username'    => $data['username'],
                     'logged_in'     => TRUE
                 ];
                 $session->set($ses_data);
                 return redirect()->to('/dashboard');
             } else {
-                $session->setFlashdata('msg', 'Wrong Password');
+                $session->setFlashdata('msg', 'Mot de passe invalide');
                 return redirect()->to('/login');
             }
         } else {
-            $session->setFlashdata('msg', 'Email not Found');
+            $session->setFlashdata('msg', 'Immatriculation invalide');
             return redirect()->to('/login');
         }
     }
