@@ -20,10 +20,10 @@
                 <?php if (session()->getFlashdata('msg')) : ?>
                     <div class="alert alert-danger"><?= session()->getFlashdata('msg') ?></div>
                 <?php endif; ?>
-                <form action="/login/auth" method="post">
+                <form action="<?php echo site_url('login/auth'); ?>" method="post">
                     <div class="mb-3">
                         <label for="" class="form-label">Immatriculation</label>
-                        <input type="text" name="im" class="form-control" id="im" value="<?= set_value('email') ?>">
+                        <input type="text" name="im" class="form-control" id="im" value="<?= set_value('im') ?>">
                     </div>
                     <div class="mb-3">
                         <label for="" class="form-label">Mot de passe</label>
