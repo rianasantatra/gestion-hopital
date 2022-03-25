@@ -9,7 +9,7 @@ class Dashboard extends Controller
     public function index()
     {
         //$session = session();
-        return view('welcome_message');
+        echo view('welcome_message');
         //echo "Welcome back, " . $session->get('username');
     }
 }
