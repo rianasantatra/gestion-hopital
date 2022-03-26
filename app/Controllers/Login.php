@@ -18,12 +18,12 @@ class Login extends Controller
         $session = session();
         $model = new UserModel();
         $im = $this->request->getVar('im');
-        $password = $this->request->getVar('password');
-        $data = $model->where('im', $im)->first();
+        $password = $this->request->getVar('password'); //var_dump($password);
+        $data = $model->where('im', $im)->first();  
         if ($data) {
-            $pass = $data['password'];
-            $verify_pass = password_verify($pass, $password);
-            if (!$verify_pass) {
+            $pass = $data['password']; //var_dump($pass);
+            $verify_pass = password_verify($password, $pass); //var_dump($verify_pass); die();
+            if ($verify_pass) {
                 $ses_data = [
                     'id'       => $data['id'],
                     'im'     => $data['im'],
