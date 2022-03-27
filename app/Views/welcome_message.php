@@ -24,7 +24,7 @@
                 <form class="searchbox" action="#!">
                     <a href="#!" class="searchbox-toggle"> <i class="fas fa-arrow-left"></i> </a>
                     <button type="submit" class="searchbox-submit"> <i class="fas fa-search"></i> </button>
-                    <input type="text" class="searchbox-input" placeholder="type to search">
+                    <select class="searchbox-input" name="search"> </select>
                 </form>
                 <div class="tools">
                     <div class="dropdown tools-item">
@@ -39,5 +39,23 @@
             </header>
         </div>
     </div>
+
+
+    <script>
+      $('.searchbox-input').select2({
+        placeholder: 'Search',
+        ajax: {
+          url: '/dashboard/search',
+          dataType: 'json',
+          delay: 250,
+          processResults: function(data){
+            return {
+              results: data
+            };
+          },
+          cache: true
+        }
+      });
+    </script>
 
 <?php include('templates/footer.php') ?>
