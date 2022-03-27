@@ -1,6 +1,5 @@
 <?php include('templates/header.php') ?>
 
-<?php $session = session (); ?>
 <div class="dash">
         <div class="dash-nav dash-nav-dark">
             <header>
@@ -27,7 +26,7 @@
                     <button type="submit" class="searchbox-submit"> <i class="fas fa-search"></i> </button>
                     <input type="text" class="searchbox-input" placeholder="type to search">
                 </form>
-                <div class="tools" style="width: 5%">
+                <div class="tools">
                     <div class="dropdown tools-item">
                         <a href="#" class="" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <i class="fas fa-user"></i>
