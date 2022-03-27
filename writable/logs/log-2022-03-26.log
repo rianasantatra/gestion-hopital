@@ -1,0 +1,106 @@
+CRITICAL - 2022-03-26 13:02:29 --> syntax error, unexpected token "if"
+#0 C:\wamp64\www\gestion-hopital\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\g...')
+#1 C:\wamp64\www\gestion-hopital\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-26 13:02:37 --> syntax error, unexpected token "if"
+#0 C:\wamp64\www\gestion-hopital\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\g...')
+#1 C:\wamp64\www\gestion-hopital\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-26 13:31:04 --> Undefined variable $session
+#0 C:\wamp64\www\gestion-hopital\app\Views\welcome_message.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\g...', 28)
+#1 C:\wamp64\www\gestion-hopital\system\View\View.php(210): include('C:\\wamp64\\www\\g...')
+#2 C:\wamp64\www\gestion-hopital\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\gestion-hopital\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 C:\wamp64\www\gestion-hopital\app\Controllers\Dashboard.php(12): view('welcome_message')
+#5 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#6 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-26 13:31:07 --> Undefined variable $session
+#0 C:\wamp64\www\gestion-hopital\app\Views\welcome_message.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\g...', 28)
+#1 C:\wamp64\www\gestion-hopital\system\View\View.php(210): include('C:\\wamp64\\www\\g...')
+#2 C:\wamp64\www\gestion-hopital\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\gestion-hopital\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 C:\wamp64\www\gestion-hopital\app\Controllers\Dashboard.php(12): view('welcome_message')
+#5 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#6 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-26 13:31:14 --> Undefined variable $session
+#0 C:\wamp64\www\gestion-hopital\app\Views\welcome_message.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\g...', 28)
+#1 C:\wamp64\www\gestion-hopital\system\View\View.php(210): include('C:\\wamp64\\www\\g...')
+#2 C:\wamp64\www\gestion-hopital\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\gestion-hopital\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 C:\wamp64\www\gestion-hopital\app\Controllers\Dashboard.php(12): view('welcome_message')
+#5 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#6 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-26 13:31:54 --> Undefined variable $ses_data
+#0 C:\wamp64\www\gestion-hopital\app\Views\welcome_message.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\g...', 28)
+#1 C:\wamp64\www\gestion-hopital\system\View\View.php(210): include('C:\\wamp64\\www\\g...')
+#2 C:\wamp64\www\gestion-hopital\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\gestion-hopital\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 C:\wamp64\www\gestion-hopital\app\Controllers\Dashboard.php(12): view('welcome_message')
+#5 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#6 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-26 13:31:56 --> Undefined variable $ses_data
+#0 C:\wamp64\www\gestion-hopital\app\Views\welcome_message.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\g...', 28)
+#1 C:\wamp64\www\gestion-hopital\system\View\View.php(210): include('C:\\wamp64\\www\\g...')
+#2 C:\wamp64\www\gestion-hopital\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\gestion-hopital\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 C:\wamp64\www\gestion-hopital\app\Controllers\Dashboard.php(12): view('welcome_message')
+#5 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#6 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-26 13:32:58 --> Undefined variable $ses_data
+#0 C:\wamp64\www\gestion-hopital\app\Views\welcome_message.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\g...', 28)
+#1 C:\wamp64\www\gestion-hopital\system\View\View.php(210): include('C:\\wamp64\\www\\g...')
+#2 C:\wamp64\www\gestion-hopital\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\gestion-hopital\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 C:\wamp64\www\gestion-hopital\app\Controllers\Dashboard.php(12): view('welcome_message')
+#5 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#6 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-26 13:34:42 --> Undefined variable $ses_data
+#0 C:\wamp64\www\gestion-hopital\app\Views\welcome_message.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\g...', 23)
+#1 C:\wamp64\www\gestion-hopital\system\View\View.php(210): include('C:\\wamp64\\www\\g...')
+#2 C:\wamp64\www\gestion-hopital\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\gestion-hopital\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 C:\wamp64\www\gestion-hopital\app\Controllers\Dashboard.php(12): view('welcome_message')
+#5 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#6 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-26 13:35:35 --> Undefined variable $ses_data
+#0 C:\wamp64\www\gestion-hopital\app\Views\welcome_message.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\g...', 23)
+#1 C:\wamp64\www\gestion-hopital\system\View\View.php(210): include('C:\\wamp64\\www\\g...')
+#2 C:\wamp64\www\gestion-hopital\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\gestion-hopital\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 C:\wamp64\www\gestion-hopital\app\Controllers\Dashboard.php(12): view('welcome_message')
+#5 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#6 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
