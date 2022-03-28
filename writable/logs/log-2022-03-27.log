@@ -1,0 +1,315 @@
+CRITICAL - 2022-03-27 14:38:55 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php on line 23
+#0 C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php(23): CodeIgniter\Database\BaseBuilder->like('username', NULL)
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\AjaxSearch->search()
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxSearch))
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-27 14:38:57 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php on line 23
+#0 C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php(23): CodeIgniter\Database\BaseBuilder->like('username', NULL)
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\AjaxSearch->search()
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxSearch))
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-27 14:38:58 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php on line 23
+#0 C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php(23): CodeIgniter\Database\BaseBuilder->like('username', NULL)
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\AjaxSearch->search()
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxSearch))
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-27 14:38:59 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php on line 23
+#0 C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php(23): CodeIgniter\Database\BaseBuilder->like('username', NULL)
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\AjaxSearch->search()
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxSearch))
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-27 14:39:00 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php on line 23
+#0 C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php(23): CodeIgniter\Database\BaseBuilder->like('username', NULL)
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\AjaxSearch->search()
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxSearch))
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-27 14:39:01 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php on line 23
+#0 C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php(23): CodeIgniter\Database\BaseBuilder->like('username', NULL)
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\AjaxSearch->search()
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxSearch))
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-27 14:39:02 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php on line 23
+#0 C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php(23): CodeIgniter\Database\BaseBuilder->like('username', NULL)
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\AjaxSearch->search()
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxSearch))
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-27 14:39:09 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php on line 23
+#0 C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php(23): CodeIgniter\Database\BaseBuilder->like('username', NULL)
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\AjaxSearch->search()
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxSearch))
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-27 14:39:11 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php on line 23
+#0 C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php(23): CodeIgniter\Database\BaseBuilder->like('username', NULL)
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\AjaxSearch->search()
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxSearch))
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-27 14:39:12 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php on line 23
+#0 C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php(23): CodeIgniter\Database\BaseBuilder->like('username', NULL)
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\AjaxSearch->search()
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxSearch))
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-27 14:39:17 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php on line 23
+#0 C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php(23): CodeIgniter\Database\BaseBuilder->like('username', NULL)
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\AjaxSearch->search()
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxSearch))
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-27 14:40:40 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php on line 26
+#0 C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php(26): CodeIgniter\Database\BaseBuilder->like('username', NULL)
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\AjaxSearch->search()
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxSearch))
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-27 14:40:47 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php on line 26
+#0 C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php(26): CodeIgniter\Database\BaseBuilder->like('username', NULL)
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\AjaxSearch->search()
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxSearch))
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-27 14:44:46 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php on line 26
+#0 C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php(26): CodeIgniter\Database\BaseBuilder->like('username', NULL)
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\AjaxSearch->search()
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxSearch))
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-27 14:44:50 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php on line 26
+#0 C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php(26): CodeIgniter\Database\BaseBuilder->like('username', NULL)
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\AjaxSearch->search()
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxSearch))
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-27 14:44:51 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php on line 26
+#0 C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php(26): CodeIgniter\Database\BaseBuilder->like('username', NULL)
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\AjaxSearch->search()
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxSearch))
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-27 14:44:52 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php on line 26
+#0 C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php(26): CodeIgniter\Database\BaseBuilder->like('username', NULL)
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\AjaxSearch->search()
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxSearch))
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-27 14:44:53 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php on line 26
+#0 C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php(26): CodeIgniter\Database\BaseBuilder->like('username', NULL)
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\AjaxSearch->search()
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxSearch))
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-27 14:44:54 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php on line 26
+#0 C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php(26): CodeIgniter\Database\BaseBuilder->like('username', NULL)
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\AjaxSearch->search()
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxSearch))
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-27 14:45:46 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php on line 22
+#0 C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php(22): CodeIgniter\Database\BaseBuilder->like('username', NULL)
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\AjaxSearch->search()
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxSearch))
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-27 14:46:01 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php on line 22
+#0 C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php(22): CodeIgniter\Database\BaseBuilder->like('username', NULL)
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\AjaxSearch->search()
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxSearch))
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-27 14:46:02 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php on line 22
+#0 C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php(22): CodeIgniter\Database\BaseBuilder->like('username', NULL)
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\AjaxSearch->search()
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxSearch))
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-27 14:47:01 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php on line 22
+#0 C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php(22): CodeIgniter\Database\BaseBuilder->like('username', NULL)
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\AjaxSearch->search()
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxSearch))
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-27 14:47:02 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php on line 22
+#0 C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php(22): CodeIgniter\Database\BaseBuilder->like('username', NULL)
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\AjaxSearch->search()
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxSearch))
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-27 14:47:04 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php on line 22
+#0 C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php(22): CodeIgniter\Database\BaseBuilder->like('username', NULL)
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\AjaxSearch->search()
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxSearch))
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-27 14:47:08 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php on line 22
+#0 C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php(22): CodeIgniter\Database\BaseBuilder->like('username', NULL)
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\AjaxSearch->search()
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxSearch))
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-27 14:47:10 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php on line 22
+#0 C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php(22): CodeIgniter\Database\BaseBuilder->like('username', NULL)
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\AjaxSearch->search()
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxSearch))
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-27 14:47:31 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php on line 22
+#0 C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php(22): CodeIgniter\Database\BaseBuilder->like('username', NULL)
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\AjaxSearch->search()
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxSearch))
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-27 14:47:32 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php on line 22
+#0 C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php(22): CodeIgniter\Database\BaseBuilder->like('username', NULL)
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\AjaxSearch->search()
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxSearch))
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-27 14:47:33 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php on line 22
+#0 C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php(22): CodeIgniter\Database\BaseBuilder->like('username', NULL)
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\AjaxSearch->search()
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxSearch))
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-27 14:47:33 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php on line 22
+#0 C:\wamp64\www\gestion-hopital\app\Controllers\AjaxSearch.php(22): CodeIgniter\Database\BaseBuilder->like('username', NULL)
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\AjaxSearch->search()
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxSearch))
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-27 14:50:09 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\wamp64\www\gestion-hopital\app\Controllers\Dashboard.php on line 27
+#0 C:\wamp64\www\gestion-hopital\app\Controllers\Dashboard.php(27): CodeIgniter\Database\BaseBuilder->like('username', NULL)
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\Dashboard->search()
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-27 14:50:10 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\wamp64\www\gestion-hopital\app\Controllers\Dashboard.php on line 27
+#0 C:\wamp64\www\gestion-hopital\app\Controllers\Dashboard.php(27): CodeIgniter\Database\BaseBuilder->like('username', NULL)
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\Dashboard->search()
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-27 14:50:16 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\wamp64\www\gestion-hopital\app\Controllers\Dashboard.php on line 27
+#0 C:\wamp64\www\gestion-hopital\app\Controllers\Dashboard.php(27): CodeIgniter\Database\BaseBuilder->like('username', NULL)
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\Dashboard->search()
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-27 14:50:17 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\wamp64\www\gestion-hopital\app\Controllers\Dashboard.php on line 27
+#0 C:\wamp64\www\gestion-hopital\app\Controllers\Dashboard.php(27): CodeIgniter\Database\BaseBuilder->like('username', NULL)
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\Dashboard->search()
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-27 14:52:00 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\wamp64\www\gestion-hopital\app\Controllers\Dashboard.php on line 27
+#0 C:\wamp64\www\gestion-hopital\app\Controllers\Dashboard.php(27): CodeIgniter\Database\BaseBuilder->like('username', NULL)
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\Dashboard->search()
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-27 14:55:43 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\wamp64\www\gestion-hopital\app\Controllers\Dashboard.php on line 27
+#0 C:\wamp64\www\gestion-hopital\app\Controllers\Dashboard.php(27): CodeIgniter\Database\BaseBuilder->like('username', NULL)
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\Dashboard->search()
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-27 14:55:45 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\wamp64\www\gestion-hopital\app\Controllers\Dashboard.php on line 27
+#0 C:\wamp64\www\gestion-hopital\app\Controllers\Dashboard.php(27): CodeIgniter\Database\BaseBuilder->like('username', NULL)
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\Dashboard->search()
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-27 14:55:48 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\wamp64\www\gestion-hopital\app\Controllers\Dashboard.php on line 27
+#0 C:\wamp64\www\gestion-hopital\app\Controllers\Dashboard.php(27): CodeIgniter\Database\BaseBuilder->like('username', NULL)
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\Dashboard->search()
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-27 14:55:50 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\wamp64\www\gestion-hopital\app\Controllers\Dashboard.php on line 27
+#0 C:\wamp64\www\gestion-hopital\app\Controllers\Dashboard.php(27): CodeIgniter\Database\BaseBuilder->like('username', NULL)
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\Dashboard->search()
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-27 14:55:51 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\wamp64\www\gestion-hopital\app\Controllers\Dashboard.php on line 27
+#0 C:\wamp64\www\gestion-hopital\app\Controllers\Dashboard.php(27): CodeIgniter\Database\BaseBuilder->like('username', NULL)
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\Dashboard->search()
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-27 14:55:51 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\wamp64\www\gestion-hopital\app\Controllers\Dashboard.php on line 27
+#0 C:\wamp64\www\gestion-hopital\app\Controllers\Dashboard.php(27): CodeIgniter\Database\BaseBuilder->like('username', NULL)
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\Dashboard->search()
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-27 14:56:59 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\wamp64\www\gestion-hopital\app\Controllers\Dashboard.php on line 27
+#0 C:\wamp64\www\gestion-hopital\app\Controllers\Dashboard.php(27): CodeIgniter\Database\BaseBuilder->like('username', NULL)
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\Dashboard->search()
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-27 15:01:40 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\wamp64\www\gestion-hopital\app\Controllers\Dashboard.php on line 27
+#0 C:\wamp64\www\gestion-hopital\app\Controllers\Dashboard.php(27): CodeIgniter\Database\BaseBuilder->like('username', NULL)
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\Dashboard->search()
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-27 15:01:52 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\wamp64\www\gestion-hopital\app\Controllers\Dashboard.php on line 27
+#0 C:\wamp64\www\gestion-hopital\app\Controllers\Dashboard.php(27): CodeIgniter\Database\BaseBuilder->like('username', NULL)
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\Dashboard->search()
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
