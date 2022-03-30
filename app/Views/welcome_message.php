@@ -34,16 +34,16 @@
                 <h1 class="dash-title">Patients</h1>
                 <div class="row">
                     <div class="col-lg-12">
-                        <table class="table table-dark table-in-card" id="patients">
-                            <thead>
-                                <tr class="text-center">
+                        <table class="table table-in-card" id="patients">
+                            <thead class="thead-dark">
+                                <tr>
                                     <th>#</th>
                                     <th>IM</th>
                                     <th>Nom</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                
+
                             </tbody>
                         </table>
                     </div>
@@ -58,11 +58,16 @@
         $('#patients').DataTable({
             processing: true,
             serverSide: true,
-            ajax : '<?php echo site_url('dashboard/search'); ?>',
-            columns: [
-                {data: 'id'},
-                {data: 'im'},
-                {data: 'username'},
+            ajax: '<?php echo site_url('dashboard/search'); ?>',
+            columns: [{
+                    data: 'id'
+                },
+                {
+                    data: 'im'
+                },
+                {
+                    data: 'username'
+                },
             ],
         });
     });
