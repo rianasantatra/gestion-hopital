@@ -56,10 +56,7 @@
         $('#patients').DataTable({
             processing: true,
             serverSide: true,
-            ajax: "<?php echo site_url('searching'); ?>",
-            columnDefs: [
-                { targets: 0, orderable: false},
-            ]
+            ajax : "<?php echo site_url('dasboard'); ?>" ,
         });
     });
 </script>

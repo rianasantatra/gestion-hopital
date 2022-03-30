@@ -9,16 +9,16 @@ class Dashboard extends Controller
 {
     public function index()
     {
-        helper('url');
+        helper(['url']);
         return view('welcome_message');
         
     }
 
     public function search()
     {
-        $db = db_connect();
-        $builder = $db->table('users')->select('im, username, id');
+        $db = db_connect(); 
+        $builder = $db->table('users')->select('id, im, username');
 
-        return DataTable::of($builder)->addNumbering()->toJson();
+        return DataTable::of($builder)->toJson();
     }
 }
