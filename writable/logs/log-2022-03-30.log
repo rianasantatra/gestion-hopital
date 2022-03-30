@@ -1,0 +1,162 @@
+CRITICAL - 2022-03-30 13:03:45 --> Undefined variable $session
+#0 C:\wamp64\www\gestion-hopital\app\Views\welcome_message.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\g...', 24)
+#1 C:\wamp64\www\gestion-hopital\system\View\View.php(210): include('C:\\wamp64\\www\\g...')
+#2 C:\wamp64\www\gestion-hopital\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\gestion-hopital\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 C:\wamp64\www\gestion-hopital\app\Controllers\Dashboard.php(13): view('welcome_message')
+#5 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#6 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-30 13:03:55 --> Undefined variable $session
+#0 C:\wamp64\www\gestion-hopital\app\Views\welcome_message.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\g...', 24)
+#1 C:\wamp64\www\gestion-hopital\system\View\View.php(210): include('C:\\wamp64\\www\\g...')
+#2 C:\wamp64\www\gestion-hopital\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\gestion-hopital\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 C:\wamp64\www\gestion-hopital\app\Controllers\Dashboard.php(13): view('welcome_message')
+#5 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#6 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-30 13:04:05 --> Undefined variable $session
+#0 C:\wamp64\www\gestion-hopital\app\Views\welcome_message.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\g...', 24)
+#1 C:\wamp64\www\gestion-hopital\system\View\View.php(210): include('C:\\wamp64\\www\\g...')
+#2 C:\wamp64\www\gestion-hopital\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\gestion-hopital\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 C:\wamp64\www\gestion-hopital\app\Controllers\Dashboard.php(13): view('welcome_message')
+#5 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#6 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-30 13:04:48 --> Undefined variable $ses_data
+#0 C:\wamp64\www\gestion-hopital\app\Views\welcome_message.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\g...', 24)
+#1 C:\wamp64\www\gestion-hopital\system\View\View.php(210): include('C:\\wamp64\\www\\g...')
+#2 C:\wamp64\www\gestion-hopital\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\gestion-hopital\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 C:\wamp64\www\gestion-hopital\app\Controllers\Dashboard.php(13): view('welcome_message')
+#5 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#6 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-30 13:13:29 --> Class "Hermawan\DataTables\DataTable" not found
+#0 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\Dashboard->search()
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-30 13:13:44 --> Class "Hermawan\DataTables\DataTable" not found
+#0 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\Dashboard->search()
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-30 13:14:26 --> Class "Hermawan\DataTables\DataTable" not found
+#0 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\Dashboard->search()
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-30 13:14:35 --> Class "Hermawan\DataTables\DataTable" not found
+#0 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\Dashboard->search()
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-30 14:05:39 --> Class "Hermawan\DataTables\DataTable" not found
+#0 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\Dashboard->search()
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-30 14:05:52 --> Class "Hermawan\DataTables\DataTable" not found
+#0 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\Dashboard->search()
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-30 14:07:07 --> Class "Hermawan\DataTables\DataTable" not found
+#0 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\Dashboard->search()
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-30 14:09:14 --> Class "Hermawan\DataTables\DataTable" not found
+#0 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\Dashboard->search()
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-30 14:09:49 --> Class "Hermawan\DataTables\DataTable" not found
+#0 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\Dashboard->search()
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-30 14:12:03 --> Class "Hermawan\DataTables\DataTable" not found
+#0 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\Dashboard->search()
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-30 14:12:23 --> Class "Hermawan\DataTables\DataTable" not found
+#0 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\Dashboard->search()
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-30 14:19:35 --> Class "Hermawan\DataTables\DataTable" not found
+#0 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\Dashboard->search()
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-30 14:20:00 --> Class "Hermawan\DataTables\DataTable" not found
+#0 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\Dashboard->search()
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-30 14:20:25 --> Class "Hermawan\DataTables\DataTable" not found
+#0 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\Dashboard->search()
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-30 14:20:36 --> Class "Hermawan\DataTables\DataTable" not found
+#0 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\Dashboard->search()
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-30 14:20:50 --> Class "Hermawan\DataTables\DataTable" not found
+#0 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\Dashboard->search()
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-30 14:27:50 --> Undefined constant "App\Controllers\APPPATH\Hermawan\DataTables\DataTable"
+#0 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-30 14:35:45 --> Class "ThirdParty\Hermawan\DataTables\DataTable" not found
+#0 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\Dashboard->search()
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-03-30 14:54:29 --> Champ '#' inconnu dans order clause
+CRITICAL - 2022-03-30 14:54:29 --> Call to a member function getResult() on bool
+#0 C:\wamp64\www\gestion-hopital\app\ThirdParty\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#1 C:\wamp64\www\gestion-hopital\app\ThirdParty\codeigniter4-datatables\src\DataTable.php(173): Hermawan\DataTables\DataTableQuery->getDataResult()
+#2 C:\wamp64\www\gestion-hopital\app\Controllers\Dashboard.php(21): Hermawan\DataTables\DataTable->toJson(true)
+#3 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(832): App\Controllers\Dashboard->search()
+#4 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\gestion-hopital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

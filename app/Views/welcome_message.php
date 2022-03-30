@@ -42,7 +42,9 @@
                                     <th>Nom</th>
                                 </tr>
                             </thead>
-                            <tbody></tbody>
+                            <tbody>
+                                
+                            </tbody>
                         </table>
                     </div>
                 </div>
@@ -56,7 +58,12 @@
         $('#patients').DataTable({
             processing: true,
             serverSide: true,
-            ajax : "<?php echo site_url('dasboard'); ?>" ,
+            ajax : "<?php echo site_url('dashboard/search'); ?>",
+            columns: [
+                { data : "id"},
+                { data : "im"},
+                { data : "username"}
+            ],
         });
     });
 </script>

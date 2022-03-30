@@ -9,9 +9,8 @@ class Dashboard extends Controller
 {
     public function index()
     {
-        helper(['url']);
+        helper('url');
         return view('welcome_message');
-        
     }
 
     public function search()
@@ -19,6 +18,6 @@ class Dashboard extends Controller
         $db = db_connect(); 
         $builder = $db->table('users')->select('id, im, username');
 
-        return DataTable::of($builder)->toJson();
+        return DataTable::of($builder)->addNumbering()->toJson(true);
     }
 }
