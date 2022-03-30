@@ -58,11 +58,11 @@
         $('#patients').DataTable({
             processing: true,
             serverSide: true,
-            ajax : "<?php echo site_url('dashboard/search'); ?>",
+            ajax : '<?php echo site_url('dashboard/search'); ?>',
             columns: [
-                { data : "id"},
-                { data : "im"},
-                { data : "username"}
+                {data: 'id'},
+                {data: 'im'},
+                {data: 'username'},
             ],
         });
     });

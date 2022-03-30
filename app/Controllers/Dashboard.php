@@ -18,6 +18,6 @@ class Dashboard extends Controller
         $db = db_connect(); 
         $builder = $db->table('users')->select('id, im, username');
 
-        return DataTable::of($builder)->addNumbering()->toJson(true);
+        return DataTable::of($builder)->toJson(true);
     }
 }
