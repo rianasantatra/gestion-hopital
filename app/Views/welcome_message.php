@@ -59,15 +59,10 @@
             processing: true,
             serverSide: true,
             ajax: '<?php echo site_url('dashboard/search'); ?>',
-            columns: [{
-                    data: 'id'
-                },
-                {
-                    data: 'im'
-                },
-                {
-                    data: 'username'
-                },
+            columns: [
+                { data: 'id' },
+                { data: 'im' },
+                { data: 'username' },
             ],
         });
     });

@@ -15,7 +15,7 @@ class Dashboard extends Controller
 
     public function search()
     {
-        $db = db_connect(); 
+        $db = db_connect();
         $builder = $db->table('users')->select('id, im, username');
 
         return DataTable::of($builder)->toJson(true);
