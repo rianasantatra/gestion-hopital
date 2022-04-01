@@ -34,15 +34,16 @@
                 <h1 class="dash-title">Patients</h1>
                 <div class="row">
                     <div class="col-lg-12">
-                        <table class="table table-in-card" id="patients">
-                            <thead class="thead-dark">
+                        <table class="table table-in-card table-hover" id="patients">
+                            <thead class="thead-dark text-center">
                                 <tr>
-                                    <th>#</th>
+                                    <th scope="col">#</th>
                                     <th>IM</th>
                                     <th>Nom</th>
+                                    <th>Action</th>
                                 </tr>
                             </thead>
-                            <tbody>
+                            <tbody class="text-center">
 
                             </tbody>
                         </table>
@@ -59,8 +60,13 @@
             processing: true,
             serverSide: true,
             ajax: '<?php echo site_url('dashboard/search'); ?>',
+            order: [],
+            columnDefs: [{
+                targets: [0, 1, 2, 3],
+                orderable: false
+            }],
             columns: [{
-                    data: 'id'
+                    data: ''
                 },
                 {
                     data: 'im'
@@ -68,9 +74,11 @@
                 {
                     data: 'username'
                 },
+                {
+                    data: 'action'
+                },
             ],
         });
     });
 </script>
-
 <?php include('templates/footer.php') ?>

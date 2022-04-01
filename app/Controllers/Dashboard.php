@@ -18,6 +18,8 @@ class Dashboard extends Controller
         $db = db_connect();
         $builder = $db->table('users')->select('id, im, username');
 
-        return DataTable::of($builder)->toJson(true);
+        return DataTable::of($builder)->addNumbering()->add('action', function ($row) {
+            return '<button type="button" class="btn btn-primary" onclick="alert(\'edit customer: ' . $row->username . '\') ><i class="fas fa-edit"></i> Edit</button>&nbsp<button type="button" class="btn btn-primary" onclick="alert(\'edit customer: ' . $row->username . '\') ><i class="fas fa-edit"></i> Edit</button>';
+        })->toJson(true);
     }
 }
