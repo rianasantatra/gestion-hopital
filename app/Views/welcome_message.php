@@ -43,9 +43,7 @@
                                     <th>Action</th>
                                 </tr>
                             </thead>
-                            <tbody class="text-center">
-
-                            </tbody>
+                            <tbody class="text-center"></tbody>
                         </table>
                     </div>
                 </div>
@@ -60,10 +58,9 @@
             processing: true,
             serverSide: true,
             ajax: '<?php echo site_url('dashboard/search'); ?>',
-            order: [],
             columnDefs: [{
                 targets: [0, 1, 2, 3],
-                orderable: false
+                orderable: false,
             }],
             columns: [{
                     data: ''
