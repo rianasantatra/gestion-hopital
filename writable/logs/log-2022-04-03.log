@@ -1,0 +1,69 @@
+CRITICAL - 2022-04-03 06:41:02 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring.
+#0 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, intl, mbs...')
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\wamp64\www\gestion-hopital\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\wamp64\www\gestion-hopital\spark(45): require('C:\\wamp64\\www\\g...')
+#4 {main}
+CRITICAL - 2022-04-03 06:41:02 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in C:\wamp64\www\gestion-hopital\system\CLI\CLI.php:758
+Stack trace:
+#0 C:\wamp64\www\gestion-hopital\system\CLI\CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\wamp64\www\gestion-hopital\system\CLI\CLI.php(1000): CodeIgniter\CLI\CLI::init()
+#2 C:\wamp64\www\gestion-hopital\system\Autoloader\Autoloader.php(264): include_once('C:\\wamp64\\www\\g...')
+#3 C:\wamp64\www\gestion-hopital\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\g...')
+#4 C:\wamp64\www\gestion-hopital\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 C:\wamp64\www\gestion-hopital\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\wamp64\www\gestion-hopital\app\Views\errors\cli\production.php(5): include('C:\\wamp64\\www\\g...')
+#7 C:\wamp64\www\gestion-hopital\system\Debug\Exceptions.php(234): include('C:\\wamp64\\www\\g...')
+#8 C:\wamp64\www\gestion-hopital\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#9 C:\wamp64\www\gestion-hopital\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#10 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#11 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-03 06:41:25 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring.
+#0 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, intl, mbs...')
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\wamp64\www\gestion-hopital\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\wamp64\www\gestion-hopital\spark(45): require('C:\\wamp64\\www\\g...')
+#4 {main}
+CRITICAL - 2022-04-03 06:41:25 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in C:\wamp64\www\gestion-hopital\system\CLI\CLI.php:758
+Stack trace:
+#0 C:\wamp64\www\gestion-hopital\system\CLI\CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\wamp64\www\gestion-hopital\system\CLI\CLI.php(1000): CodeIgniter\CLI\CLI::init()
+#2 C:\wamp64\www\gestion-hopital\system\Autoloader\Autoloader.php(264): include_once('C:\\wamp64\\www\\g...')
+#3 C:\wamp64\www\gestion-hopital\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\g...')
+#4 C:\wamp64\www\gestion-hopital\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 C:\wamp64\www\gestion-hopital\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\wamp64\www\gestion-hopital\app\Views\errors\cli\production.php(5): include('C:\\wamp64\\www\\g...')
+#7 C:\wamp64\www\gestion-hopital\system\Debug\Exceptions.php(234): include('C:\\wamp64\\www\\g...')
+#8 C:\wamp64\www\gestion-hopital\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#9 C:\wamp64\www\gestion-hopital\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#10 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#11 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-03 06:41:32 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring.
+#0 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, intl, mbs...')
+#1 C:\wamp64\www\gestion-hopital\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\wamp64\www\gestion-hopital\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\wamp64\www\gestion-hopital\spark(45): require('C:\\wamp64\\www\\g...')
+#4 {main}
+CRITICAL - 2022-04-03 06:41:32 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in C:\wamp64\www\gestion-hopital\system\CLI\CLI.php:758
+Stack trace:
+#0 C:\wamp64\www\gestion-hopital\system\CLI\CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\wamp64\www\gestion-hopital\system\CLI\CLI.php(1000): CodeIgniter\CLI\CLI::init()
+#2 C:\wamp64\www\gestion-hopital\system\Autoloader\Autoloader.php(264): include_once('C:\\wamp64\\www\\g...')
+#3 C:\wamp64\www\gestion-hopital\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\g...')
+#4 C:\wamp64\www\gestion-hopital\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 C:\wamp64\www\gestion-hopital\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\wamp64\www\gestion-hopital\app\Views\errors\cli\production.php(5): include('C:\\wamp64\\www\\g...')
+#7 C:\wamp64\www\gestion-hopital\system\Debug\Exceptions.php(234): include('C:\\wamp64\\www\\g...')
+#8 C:\wamp64\www\gestion-hopital\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#9 C:\wamp64\www\gestion-hopital\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#10 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#11 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

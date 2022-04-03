@@ -34,10 +34,11 @@
                 <h1 class="dash-title">Patients</h1>
                 <div class="row">
                     <div class="col-lg-12">
-                        <table class="table table-in-card table-hover" id="patients">
+                        <table class="table table-in-card" id="patients">
                             <thead class="thead-dark text-center">
                                 <tr>
-                                    <th scope="col">#</th>
+                                    <th>#</th>
+                                    <th class="hidden">ID</th>
                                     <th>IM</th>
                                     <th>Nom</th>
                                     <th>Action</th>
@@ -52,18 +53,57 @@
     </div>
 </div>
 
+<div class="modal fade" id="updateModal" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title"><span class="fas fa-info-circle"></span> Informations</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+                <form action="<?php echo site_url('dashboard/update'); ?>" method="POST" class="form-horizontal">
+                    <div class="form-body">
+                        <div class="form-group">
+                            <label class="control-label col-md-3">IM</label>
+                            <div class="col-md-9">
+                                <input id="im" name="im" placeholder="Immatriculation" class="form-control" type="text">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-3">Nom</label>
+                            <div class="col-md-9">
+                                <input id="username" name="username" placeholder="Nom" class="form-control" type="text">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-primary">Update</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
 <script type="text/javascript">
+    var save_method;
+
     $(document).ready(function() {
         $('#patients').DataTable({
             processing: true,
             serverSide: true,
-            ajax: '<?php echo site_url('dashboard/search'); ?>',
+            ajax: '<?php echo site_url('dashboard/list'); ?>',
             columnDefs: [{
-                targets: [0, 1, 2, 3],
+                targets: [0, 1, 2, 3, 4],
                 orderable: false,
             }],
             columns: [{
                     data: ''
+                },
+                {
+                    data: 'id',
+                    'visible': false
                 },
                 {
                     data: 'im'
@@ -75,6 +115,22 @@
                     data: 'action'
                 },
             ],
+        });
+    });
+
+    $('body').on('click', '.btnedit', function() {
+        var user_id = $(this).attr('id');
+        $.ajax({
+            url: 'dashboard/edit/' + user_id,
+            type: "GET",
+            dataType: 'json',
+            success: function(res) {
+                $('#updateModal #user_id').val(res.data.id);
+                $('#updateModal #im').val(res.data.im);
+                $('#updateModal #username').val(res.data.username);
+                $('#updateModal').modal('show');
+            },
+            error: function(data) {}
         });
     });
 </script>
