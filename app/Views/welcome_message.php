@@ -31,9 +31,16 @@
         </header>
         <main class="dash-content">
             <div class="container-fluid">
-                <h1 class="dash-title">Patients</h1>
                 <div class="row">
-                    <div class="col-lg-12">
+                    <div class="col-md-2 text-right">
+                        <h1 class="dash-title">Patients</h3>
+                    </div>
+                    <div class="col-md-10 text-left">
+                        <button type="button" class="btn btn-info"><i class="fas fa-plus"></i> Add</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
                         <table class="table table-in-card" id="patients">
                             <thead class="thead-dark text-center">
                                 <tr>
@@ -60,9 +67,15 @@
                 <h3 class="modal-title"><span class="fas fa-info-circle"></span> Informations</h3>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             </div>
-            <div class="modal-body">
-                <form action="<?php echo site_url('dashboard/update'); ?>" method="POST" class="form-horizontal">
+            <form action="<?php echo site_url('dashboard/update'); ?>" method="POST" class="form-horizontal">
+                <div class="modal-body">
+
                     <div class="form-body">
+                        <div class="form-group">
+                            <div class=" col-md-12">
+                                <input id="id" name="id" placeholder="Immatriculation" class="form-control" type="hidden">
+                            </div>
+                        </div>
                         <div class="form-group">
                             <label class="control-label col-md-3">IM</label>
                             <div class="col-md-9">
@@ -76,12 +89,12 @@
                             </div>
                         </div>
                     </div>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button type="submit" class="btn btn-primary">Update</button>
-                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
-            </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary">Update</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                </div>
+            </form>
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
@@ -125,12 +138,11 @@
             type: "GET",
             dataType: 'json',
             success: function(res) {
-                $('#updateModal #user_id').val(res.data.id);
+                $('#updateModal #id').val(res.data.id);
                 $('#updateModal #im').val(res.data.im);
                 $('#updateModal #username').val(res.data.username);
                 $('#updateModal').modal('show');
-            },
-            error: function(data) {}
+            }
         });
     });
 </script>

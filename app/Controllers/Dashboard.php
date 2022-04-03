@@ -22,7 +22,7 @@ class Dashboard extends Controller
         return DataTable::of($builder)
             ->addNumbering()
             ->add('action', function ($row) {
-                return '<button id="' . $row->id . '" type="button" class="btn btn-primary btnedit"><i class="fas fa-edit"></i> Edit</button> <button type="button" class="btn btn-danger" onclick="alert(\'delete user: ' . $row->id . '\')"><i class="fas fa-trash"></i> Delete</button>';
+                return '<button id="' . $row->id . '" type="button" class="btn btn-primary btnedit"><i class="fas fa-edit"></i> Edit</button> <button type="button" class="btn btn-danger"><i class="fas fa-trash"></i> Delete</button>';
             })->toJson(true);
     }
 
@@ -56,8 +56,10 @@ class Dashboard extends Controller
         if ($update != false) {
             $data = $model->where('id', $id);
             echo json_encode(array("status" => true, 'data' => $data));
+            return redirect()->to('/dashboard');
         } else {
             echo json_encode(array("status" => false, 'data' => $data));
+            return redirect()->to('/dashboard');
         }
     }
 
