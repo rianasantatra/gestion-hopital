@@ -23,7 +23,7 @@ class Dashboard extends Controller
             ->addNumbering()
             ->add('action', function ($row) {
                 return '<button id="' . $row->id . '" type="button" class="btn btn-primary btnedit"><i class="fas fa-edit"></i> Edit</button>
-                        <button type="button" class="btn btn-danger"><i class="fas fa-trash"></i> Delete</button>';
+                        <button id="' . $row->id . '" type="button" class="btn btn-danger btndelete"><i class="fas fa-trash"></i> Delete</button>';
             })->toJson(true);
     }
 
@@ -64,7 +64,12 @@ class Dashboard extends Controller
         }
     }
 
-    public function delete()
+    public function delete($id = null)
     {
+        helper(['form', 'url']);
+        $model = new UserModel();
+        $data = $model->where('id', $id)->delete();
+        echo json_encode(array("status" => TRUE, 'data' => $data));
+        return redirect()->to('/dashboard');
     }
 }

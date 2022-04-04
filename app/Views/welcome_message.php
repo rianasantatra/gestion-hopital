@@ -60,6 +60,7 @@
     </div>
 </div>
 
+<!-- Update Modal -->
 <div class="modal fade" id="updateModal" role="dialog">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -100,8 +101,7 @@
 </div><!-- /.modal -->
 
 <script type="text/javascript">
-    var save_method;
-
+    /** Ajax get by id */
     $(document).ready(function() {
         $('#patients').DataTable({
             processing: true,
@@ -131,6 +131,7 @@
         });
     });
 
+    /** Ajax Update */
     $('body').on('click', '.btnedit', function() {
         var user_id = $(this).attr('id');
         $.ajax({
@@ -144,6 +145,29 @@
                 $('#updateModal').modal('show');
             }
         });
+    });
+
+    /** Ajax Delete */
+    $(document).on('click', '.btndelete', function() {
+        swal({
+                title: "Are you sure?",
+                icon: "warning",
+                buttons: true,
+                dangerMode: true,
+            }),
+            function() {
+                $.ajax({
+                    type: "POST",
+                    data: {
+                        id: id
+                    },
+                    url: 'dashboard/delete/' + id,
+                    dataType: 'json',
+                    success: function(data) {
+                        //
+                    }
+                });
+            }
     });
 </script>
 <?php include('templates/footer.php') ?>
