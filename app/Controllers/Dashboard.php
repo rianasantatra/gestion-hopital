@@ -22,7 +22,8 @@ class Dashboard extends Controller
         return DataTable::of($builder)
             ->addNumbering()
             ->add('action', function ($row) {
-                return '<button id="' . $row->id . '" type="button" class="btn btn-primary btnedit"><i class="fas fa-edit"></i> Edit</button> <button type="button" class="btn btn-danger"><i class="fas fa-trash"></i> Delete</button>';
+                return '<button id="' . $row->id . '" type="button" class="btn btn-primary btnedit"><i class="fas fa-edit"></i> Edit</button>
+                        <button type="button" class="btn btn-danger"><i class="fas fa-trash"></i> Delete</button>';
             })->toJson(true);
     }
 
